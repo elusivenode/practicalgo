@@ -15,8 +15,8 @@ type config struct {
 }
 
 var usageString = fmt.Sprintf(`Usage: %s <integer> [-h|-help]
-	A greeter application which prints the name you entered <integer> number of times.
-	`, os.Args[0])
+A greeter application which prints the name you entered <integer> number of times.
+`, os.Args[0])
 
 func printUsage(w io.Writer) {
 	fmt.Fprintf(w, usageString)
